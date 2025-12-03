@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TechNova Web Club - Contact</title>
+</head>
+<body>
+    <header>
+        <h1>TechNova Web Club</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="date">Preferred Contact Date:</label><br>
+                <input type="date" id="date" name="date"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message Details</legend>
+
+                <label for="topic">Topic:</label><br>
+                <select id="topic" name="topic">
+                    <option value="membership">Membership</option>
+                    <option value="events">Events</option>
+                    <option value="projects">Projects</option>
+                </select><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+            </fieldset>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TechNova Web Club - Created by [Your Name]</p>
+    </footer>
+</body>
+</html>
